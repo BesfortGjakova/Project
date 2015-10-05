@@ -1,0 +1,153 @@
+﻿body {
+	width: 950px;
+	margin-left:auto;
+    margin-right:auto;
+	background: black;
+}
+
+#header {
+    background-color:#303030;
+    color:white;
+    text-align:left;
+    padding:5px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#nav {
+    line-height:30px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+    background-color:#303030;
+    height:100%;
+    width:150px;
+    float:left;
+    padding:5px;
+}
+
+#section {
+	color: white;
+	overflow: auto;
+    width: 600px;
+	text-align: left;
+    padding:10px;
+	margin-left: 15px;
+	
+}
+
+#aside {
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:#303030;
+    height:100%;
+    width:150px;
+    float:right;
+}
+
+input[name="name"]{
+	width:130px;
+}
+
+input[name="email"]{
+	width:130px;
+}
+
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+.btn {
+	display: inline-block; 
+    width: 152px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	background: #336666; 
+	color: #FFF;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+	font-family: Arial, sans-serif;
+	line-height: 2em;
+	text-decoration: none; 
+}
+
+.btn:hover{
+	display: inline-block; 
+    width: 152px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	background: #000066; 
+	color: #FFF;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+	font-family: Arial, sans-serif;
+	line-height: 2em;
+	text-decoration: none; 
+}
+
+.btn1 {
+	display: inline-block; 
+    width: 152px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	background: #000066; 
+	color: #FFF;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+	font-family: Arial, sans-serif;
+	line-height: 2em;
+	text-decoration: none; 
+}
+	
+a.menu {
+	width: 6em;
+}
+
+a.menu:link{
+	color: #ffffff;
+	background: red;
+	text-decoration: none;
+	padding: 3px 18px 3px 18px;		
+	width: 50px;
+	height: 30px;
+}
+
+.collapse {
+	color: black;
+}
+
+img[alt="section"] {
+	float: right;
+	margin: 0 15px 5px 0;
+	padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	
+}
+
+.myDIV {
+    background-color: lightblue;
+}
+
+.menuHeader {
+	cursor: pointer;
+}
+
+.menuContent {
+	display: none;
+}
+
+#changeLook{
+
+	float: right;
+}
